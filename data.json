@@ -84,6 +84,23 @@
       ],
       "technos" : ["Apache Airflow" , "Dask", "Celery" ,"Slack" , "Docker", "Kubernetes", "numpy", "pandas", "mysql", "druid", "Tranquility", "zookeeper", "SQLAlchemy", "pandas"],
       "host": { "Amazon": ["fo-1", "fo-2"]  } 
-    }
-  ]
+    },
+    {
+      "name": "Data Science and AI",
+      "children": [
+        {
+          "name": "Semantic Search Engine",
+          "children": [
+            {"name": "Named Entity Recognition"},
+            {"name": "Spell Checks"},
+            {"name": "Synonyn mining"},
+            {"name": "word embeddings"},
+            {"name": "stacking and ensembling"},
+            {"name": "Query expansion"}
+           ],
+          "technos" : ["keras", "scipy", "scikit-learn", "pytorch", "flair", "pandas", "surprise", ""]
+        }
+      ]
+     }
+   ]
 }
