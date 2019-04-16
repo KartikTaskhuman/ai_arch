@@ -67,7 +67,7 @@
               "name": "Distributed Streaming",
               "children": [
                 {"name": "Apache Kafka"},
-                {"name": "Apache Zookeeper"},
+                {"name": "Apache Zookeeper"}
               ],
               "technos" : ["Kafka", "zookeeper", "kafka-python"],
               "host": { "AWS EC2" }
