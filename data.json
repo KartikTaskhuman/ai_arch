@@ -71,17 +71,12 @@
             {
               "name": "Datastore",
               "children": [
-                {"name": "Apache Druid",
-                 "children": [
-                  {"name": "Tranquility"},
+                {"name": "Apache Druid"},
+                {"name": "MySQL"}
                 ],
-                "technos" : ["druid", "Tranquility"],
-               },
-                {"name": "MySQL",
-                "technos" : ["mysql", "SQLAlchemy", "pandas"]},
-              ]
+                "technos" : ["mysql", "druid", "Tranquility", "zookeeper", "SQLAlchemy", "pandas"]
             }
-          ], 
+          ]
         }
       ]
     }
