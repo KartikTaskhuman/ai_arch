@@ -36,7 +36,7 @@
       "host": { "Amazon": ["fo-1", "fo-2"]  } 
     },
     {
-      "name": "Business Intelligence",
+      "name": "BI",
       "children": [
         {
           "name": "Dashboard",
