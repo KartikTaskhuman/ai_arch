@@ -54,6 +54,14 @@
           ],
           "technos" : ["Apache Airflow" , "Dask", "Celery" ,"Slack" , "Docker", "Kubernetes", "numpy", "pandas", "mysql", "druid", "Tranquility", "zookeeper", "SQLAlchemy", "pandas"],
           "host": { "Amazon": ["fo-1", "fo-2"]  } 
+        },
+        {
+              "name": "Change Data Capture",
+              "children": [
+                {"name": "Debezium"}
+              ],
+              "technos" : ["Debezium"],
+              "host": { "Amazon": ["fo-1", "fo-2"]} 
         }
       ],
       "technos" : ["Apache Airflow" , "Dask", "Celery" ,"Slack" , "Docker", "Kubernetes", "numpy", "pandas", "mysql", "druid", "Tranquility", "zookeeper", "SQLAlchemy", "pandas"],
