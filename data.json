@@ -44,19 +44,19 @@
             {
               "name": "Apache Superset",
               "children": [
-                { "name": "Messaging Service" },
-                { "name": "Dask Distributed"  },
-                { "name": "Metadata Store" },
-                { "name": "Executor"  },
-                { "name": "Workers"  }
-              ],
-              "technos" : ["Apache Airflow" , "Dask", "Celery" ,"Slack" , "Docker", "Kubernetes", "numpy", "pandas"],
-              "host": { "AWS EC2" }
+                { "name": "Messaging Service"},
+                { "name": "Dask Distributed"},
+                { "name": "Metadata Store"},
+                { "name": "Executor"},
+                { "name": "Workers"}
+              ]
             }
-          ]
+          ],
+          "technos" : ["Apache Airflow" , "Dask", "Celery" ,"Slack" , "Docker", "Kubernetes", "numpy", "pandas", "mysql", "druid", "Tranquility", "zookeeper", "SQLAlchemy", "pandas"],
+          "host": { "Amazon": ["fo-1", "fo-2"]  } 
         }
       ],
-      "technos" : ["mysql", "druid", "Tranquility", "zookeeper", "SQLAlchemy", "pandas"],
+      "technos" : ["Apache Airflow" , "Dask", "Celery" ,"Slack" , "Docker", "Kubernetes", "numpy", "pandas", "mysql", "druid", "Tranquility", "zookeeper", "SQLAlchemy", "pandas"],
       "host": { "Amazon": ["fo-1", "fo-2"]  } 
     }
   ]
