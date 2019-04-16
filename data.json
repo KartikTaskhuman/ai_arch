@@ -10,38 +10,30 @@
             {
               "name": "Apache Airflow",
               "children": [
-                { "name": "Messaging Service"
-                   },
-                { "name": "Dask Distributed" 
-                  },
-                { "name": "Metadata Store"
-                  },
-                { "name": "Executor" 
-                  },
-                { "name": "Workers" 
-                  }
+                { "name": "Messaging Service"},
+                { "name": "Dask Distributed" },
+                { "name": "Metadata Store" },
+                { "name": "Executor"  },
+                { "name": "Workers" }
               ],
               "technos" : ["Apache Airflow" , "Dask", "Celery" ,"Slack" , "Docker", "Kubernetes", "numpy", "pandas"],
-              "host": { "AWS EC2" }
+              "host": { "Amazon": ["fo-1", "fo-2"] }
             },
             {
               "name": "Metrics",
               "children": [
-                { "name": "Apache Superset" ,
-                  },
-                { "name": "Redis Queues",
-                },
-                { "name": "Taskhuman Categories",
-              }
+                { "name": "Apache Superset"},
+                { "name": "Redis Queues"},
+                { "name": "Taskhuman Categories"}
               ],
               "technos" : ["Apache Superset" , "redis", "redis-queue", "Flask"],
-              "host": { "AWS EC2" }           
+              "host": { "Amazon": ["fo-1", "fo-2"] }           
             }
           ]
         }
       ],
       "technos" : ["Apache Superset" , "redis", "redis-queue", "Flask"],
-      "host": { "AWS EC2" } 
+      "host": { "Amazon": ["fo-1", "fo-2"]  } 
     }
   ]
 }
