@@ -1,0 +1,136 @@
+{
+  "name": "Root",
+  "children": [
+    {
+      "name": "Data Lake",
+      "children": [
+        {
+          "name": "Data Pipelining",
+          "children": [
+            {
+              "name": "Apache Airflow",
+              "children": [
+                { "name": "Messaging Service"
+                   },
+                { "name": "Dask Distributed" 
+                  },
+                { "name": "Metadata Store"
+                  },
+                { "name": "Executor" 
+                  },
+                { "name": "Workers" 
+                  }
+              ],
+              "technos" : ["Apache Airflow" , "Dask", "Celery" ,"Slack" , "Docker", "Kubernetes", "numpy", "pandas"],
+              "host": { "AWS EC2" }
+            },
+            {
+              "name": "Metrics",
+              "dependsOn": ["BI Analytics"],
+              "children": [
+                { "name": "Apache Superset" ,
+                  },
+                { "name": "Redis Queues",
+                },
+                { "name": "Taskhuman Categories",
+              }
+              ],
+              "technos" : ["Apache Superset" , "redis", "redis-queue", "Flask"]            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Business Intelligence",
+      "children": [
+        {
+          "name": "Dashboard and Analytics",
+          "children": [
+            {
+              "name": "Apache Superset",
+              "children": [
+                { "name": "Messaging Service"
+                   },
+                { "name": "Dask Distributed" 
+                  },
+                { "name": "Metadata Store"
+                  },
+                { "name": "Executor" 
+                  },
+                { "name": "Workers" 
+                  }
+              ],
+              "technos" : ["Apache Airflow" , "Dask", "Celery" ,"Slack" , "Docker", "Kubernetes", "numpy", "pandas"],
+              "host": { "AWS EC2" }
+            },
+            {
+              "name": "Change Data Capture",
+              "children": [
+                {"name": "Debezium"}],
+              "technos" : ["Debezium"],
+            },
+            {
+              "name": "Distributed Streaming",
+              "children": [
+                {"name": "Apache Kafka"},
+                {"name": "Apache Zookeeper"},
+              ],
+              "technos" : ["Kafka", "zookeeper", "kafka-python"],
+              "host": { "AWS EC2" }
+            },
+            {
+              "name": "Datastore",
+              "children": [
+                {"name": "Apache Druid",
+                 "children": [
+                {"name": "Tranquility"},
+                ],
+                "technos" : ["druid", "Tranquility"],
+               },
+                {"name": "MySQL",
+                "technos" : ["mysql", "SQLAlchemy", "pandas"]},
+              ]
+            }
+          ], 
+        }
+      ]
+  },
+    {
+      "name": "Data Science and AI",
+      "children": [
+        {
+          "name": "Semantic Search Engine",
+          "children": [
+            {"name": "Named Entity Recognition"},
+            {"name": "Spell Checks"},
+            {"name": "Synonyn mining"},
+            {"name": "word embeddings"},
+            {"name": "stacking and ensembling"},
+            {"name": "Query expansion"}
+           ],
+          "technos" : ["keras", "scipy", "scikit-learn", "pytorch", "flair", "pandas", "surprise", ""]
+    },
+    {
+          "name": "Recommendations Engine",
+          "children": [
+            {"name": "Factorization Machine"},
+            {"name": "Collaborative Filtering"},
+            {"name": "Matrix Factorization"},
+            {"name": "word embeddings"},
+            {"name": "DL based"}
+           ],
+          "technos" : ["mysql", "SQLAlchemy", "pandas", "gensim", "fasttext", "lasagne"]
+    },
+    {
+          "name": "Knowledge graph engine",
+          "children": [
+            {"name": "Category Taxonomy"},
+            {"name": "Category Ontologies"},
+            {"name": "Wikicorpus"},
+            {"name": "pubmed"},
+            {"name": "Graph Database"}
+           ],
+          "technos" : ["neo4j", "grakn"]
+    }
+ ]
+}
