@@ -71,6 +71,15 @@
               ],
               "technos" : ["Kafka", "zookeeper", "kafka-python"],
               "host": {  "Amazon": ["fo-1", "fo-2"] }
+        },
+        {
+              "name": "Datastore",
+              "children": [
+                {"name": "Apache Druid"},
+                {"name": "MySQL"}
+                ],
+                "technos" : ["mysql", "druid", "Tranquility", "zookeeper", "SQLAlchemy", "pandas"],
+                "host": { "Amazon": ["fo-1", "fo-2"]  } 
         }
       ],
       "technos" : ["Apache Airflow" , "Dask", "Celery" ,"Slack" , "Docker", "Kubernetes", "numpy", "pandas", "mysql", "druid", "Tranquility", "zookeeper", "SQLAlchemy", "pandas"],
