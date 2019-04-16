@@ -99,6 +99,28 @@
             {"name": "Query expansion"}
            ],
           "technos" : ["keras", "scipy", "scikit-learn", "pytorch", "flair", "pandas", "surprise", ""]
+        },
+        {
+          "name": "Recommendations Engine",
+          "children": [
+            {"name": "Factorization Machine"},
+            {"name": "Collaborative Filtering"},
+            {"name": "Matrix Factorization"},
+            {"name": "word embeddings"},
+            {"name": "DL based"}
+           ],
+          "technos" : ["mysql", "SQLAlchemy", "pandas", "gensim", "fasttext", "lasagne"]
+        },
+        {
+          "name": "Knowledge graph engine",
+          "children": [
+            {"name": "Category Taxonomy"},
+            {"name": "Category Ontologies"},
+            {"name": "Wikicorpus"},
+            {"name": "pubmed"},
+            {"name": "Graph Database"}
+           ],
+          "technos" : ["neo4j", "grakn"]
         }
       ]
      }
