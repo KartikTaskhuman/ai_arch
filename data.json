@@ -39,10 +39,10 @@
       "name": "Business Intelligence",
       "children": [
         {
-          "name": "Dashboard and Analytics",
+          "name": "Dashboard",
           "children": [
             {
-              "name": "Apache Superset",
+              "name": "Superset",
               "children": [
                 { "name": "Messaging Service"},
                 { "name": "Dask Distributed"},
@@ -57,9 +57,6 @@
         },
         {
               "name": "Change Data Capture",
-              "children": [
-                {"name": "Debezium"}
-              ],
               "technos" : ["Debezium"],
               "host": { "Amazon": ["fo-1", "fo-2"]} 
         },
@@ -86,7 +83,7 @@
       "host": { "Amazon": ["fo-1", "fo-2"]  } 
     },
     {
-      "name": "Data Science and AI",
+      "name": "Data Science",
       "children": [
         {
           "name": "Semantic Search Engine",
@@ -101,7 +98,7 @@
           "technos" : ["keras", "scipy", "scikit-learn", "pytorch", "flair", "pandas", "surprise", ""]
         },
         {
-          "name": "Recommendations Engine",
+          "name": "RECSYS",
           "children": [
             {"name": "Factorization Machine"},
             {"name": "Collaborative Filtering"},
@@ -112,7 +109,7 @@
           "technos" : ["mysql", "SQLAlchemy", "pandas", "gensim", "fasttext", "lasagne"]
         },
         {
-          "name": "Knowledge graph engine",
+          "name": "Knowledge graph",
           "children": [
             {"name": "Category Taxonomy"},
             {"name": "Category Ontologies"},
