@@ -81,7 +81,9 @@
             }
           ]
         }
-      ]
+      ],
+        "technos" : ["mysql", "druid", "Tranquility", "zookeeper", "SQLAlchemy", "pandas"],
+        "host": { "Amazon": ["fo-1", "fo-2"]  } 
     }
   ]
 }
