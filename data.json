@@ -34,11 +34,14 @@
                 { "name": "Taskhuman Categories",
               }
               ],
-              "technos" : ["Apache Superset" , "redis", "redis-queue", "Flask"]            
+              "technos" : ["Apache Superset" , "redis", "redis-queue", "Flask"],
+              "host": { "AWS EC2" }           
             }
           ]
         }
-      ]
+      ],
+      "technos" : ["Apache Superset" , "redis", "redis-queue", "Flask"],
+      "host": { "AWS EC2" } 
     }
   ]
 }
