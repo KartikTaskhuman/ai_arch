@@ -56,8 +56,10 @@
             {
               "name": "Change Data Capture",
               "children": [
-                {"name": "Debezium"}],
+                {"name": "Debezium"}
+              ],
               "technos" : ["Debezium"],
+              "host": { "Amazon": ["fo-1", "fo-2"]} 
             },
             {
               "name": "Distributed Streaming",
@@ -74,7 +76,8 @@
                 {"name": "Apache Druid"},
                 {"name": "MySQL"}
                 ],
-                "technos" : ["mysql", "druid", "Tranquility", "zookeeper", "SQLAlchemy", "pandas"]
+                "technos" : ["mysql", "druid", "Tranquility", "zookeeper", "SQLAlchemy", "pandas"],
+                "host": { "Amazon": ["fo-1", "fo-2"]  } 
             }
           ]
         }
