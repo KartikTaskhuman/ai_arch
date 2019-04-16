@@ -16,8 +16,7 @@
                 { "name": "Executor"  },
                 { "name": "Workers" }
               ],
-              "technos" : ["Apache Airflow" , "Dask", "Celery" ,"Slack" , "Docker", "Kubernetes", "numpy", "pandas"],
-              "host": { "Amazon": ["fo-1", "fo-2"] }
+              "technos" : ["Apache Airflow" , "Dask", "Celery" ,"Slack" , "Docker", "Kubernetes", "numpy", "pandas"]
             },
             {
               "name": "Metrics",
@@ -26,14 +25,12 @@
                 { "name": "Redis Queues"},
                 { "name": "Taskhuman Categories"}
               ],
-              "technos" : ["Apache Superset" , "redis", "redis-queue", "Flask"],
-              "host": { "Amazon": ["fo-1", "fo-2"] }           
+              "technos" : ["Apache Superset" , "redis", "redis-queue", "Flask"]
             }
           ]
         }
       ],
-      "technos" : ["Apache Superset" , "redis", "redis-queue", "Flask"],
-      "host": { "Amazon": ["fo-1", "fo-2"]  } 
+      "technos" : ["Apache Superset" , "redis", "redis-queue", "Flask"]
     },
     {
       "name": "BI",
@@ -52,13 +49,11 @@
               ]
             }
           ],
-          "technos" : ["Apache Airflow" , "Dask", "Celery" ,"Slack" , "Docker", "Kubernetes", "numpy", "pandas", "mysql", "druid", "Tranquility", "zookeeper", "SQLAlchemy", "pandas"],
-          "host": { "Amazon": ["fo-1", "fo-2"]  } 
+          "technos" : ["Apache Airflow" , "Dask", "Celery" ,"Slack" , "Docker", "Kubernetes", "numpy", "pandas", "mysql", "druid", "Tranquility", "zookeeper", "SQLAlchemy", "pandas"]
         },
         {
               "name": "Change Data Capture",
-              "technos" : ["Debezium"],
-              "host": { "Amazon": ["fo-1", "fo-2"]} 
+              "technos" : ["Debezium"]
         },
         {
               "name": "Distributed Streaming",
@@ -66,8 +61,7 @@
                 {"name": "Apache Kafka"},
                 {"name": "Apache Zookeeper"}
               ],
-              "technos" : ["Kafka", "zookeeper", "kafka-python"],
-              "host": {  "Amazon": ["fo-1", "fo-2"] }
+              "technos" : ["Kafka", "zookeeper", "kafka-python"]
         },
         {
               "name": "Datastore",
@@ -75,12 +69,10 @@
                 {"name": "Apache Druid"},
                 {"name": "MySQL"}
                 ],
-                "technos" : ["mysql", "druid", "Tranquility", "zookeeper", "SQLAlchemy", "pandas"],
-                "host": { "Amazon": ["fo-1", "fo-2"]  } 
+                "technos" : ["mysql", "druid", "Tranquility", "zookeeper", "SQLAlchemy", "pandas"]
         }
       ],
-      "technos" : ["Apache Airflow" , "Dask", "Celery" ,"Slack" , "Docker", "Kubernetes", "numpy", "pandas", "mysql", "druid", "Tranquility", "zookeeper", "SQLAlchemy", "pandas"],
-      "host": { "Amazon": ["fo-1", "fo-2"]  } 
+      "technos" : ["Apache Airflow" , "Dask", "Celery" ,"Slack" , "Docker", "Kubernetes", "numpy", "pandas", "mysql", "druid", "Tranquility", "zookeeper", "SQLAlchemy", "pandas"]
     },
     {
       "name": "Data Science",
@@ -95,7 +87,7 @@
             {"name": "stacking and ensembling"},
             {"name": "Query expansion"}
            ],
-          "technos" : ["keras", "scipy", "scikit-learn", "pytorch", "flair", "pandas", "surprise", ""]
+          "technos" : ["keras", "scipy", "scikit-learn", "pytorch", "flair", "pandas", "surprise"]
         },
         {
           "name": "RECSYS",
